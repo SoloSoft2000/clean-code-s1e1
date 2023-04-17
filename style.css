@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header img {
+.header-img {
   width: 100%;
 }
 
-.more_inf {
+.header-link {
   font-family: fantasy, cursive;
 }
 
