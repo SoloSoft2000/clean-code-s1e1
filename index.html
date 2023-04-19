@@ -27,7 +27,7 @@
           <li class="task-item">
             <input class="task-item__check" type="checkbox">
             <label class="task-item__name">Pay Bills</label>
-            <input class="input task-item__input" value="Pay Bills" type="text" class="task">
+            <input class="input task-item__input" value="Pay Bills" type="text">
             <button class="button">Edit</button>
             <button class="button task-item__delete">
               <img src="./remove.svg" alt="delete">
@@ -36,7 +36,7 @@
           <li class="task-item task-edit">
             <input class="task-item__check" type="checkbox">
             <label class="task-item__name">Go Shopping</label>
-            <input class="input task-item__input" value="Go Shopping" type="text" class="task">
+            <input class="input task-item__input" value="Go Shopping" type="text">
             <button class="button task-item__save">Save</button>
             <button class="button task-item__delete">
               <img src="./remove.svg" alt="delete">
@@ -45,14 +45,14 @@
         </ul>
       </section>
       <section class="completed-block">
-        <h3>Completed</h3>
-        <ul id="task-ended">
-          <li>
-            <input type="checkbox" checked>
-            <label class="task">See the Doctor</label>
-            <input type="text" class="task">
-            <button class="edit">Edit</button>
-            <button class="delete">
+        <h3 class="section__title">Completed</h3>
+        <ul class="task-list">
+          <li class="task-item task-ended">
+            <input class="task-item__check" type="checkbox" checked>
+            <label class="task-item__name">See the Doctor</label>
+            <input class="input task-item__input" type="text">
+            <button class="button">Edit</button>
+            <button class="button task-item__delete">
               <img src="./remove.svg" alt="delete">
             </button>
           </li>
